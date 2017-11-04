@@ -1,0 +1,76 @@
+.img-circle {
+    border-radius: 50%;
+    align:center;
+    /*width:20%;*/
+}
+
+.img-bg{
+    position:relative;
+    z-index:0;
+}
+
+h1 {
+    font-family:Helvetica
+    color: darkblue;
+}
+p {
+    color: red;
+    /* padding:10; */
+}
+
+* {
+    /* box-sizing: border-box; */
+}*/
+
+body {
+    margin: 0;
+    background-color:lime;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #555555;
+    margin:0;
+    
+    
+    
+}
+
+.box{
+    text-width:30%;
+    background-image:"bg.JPG"
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-width:5px solid black;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: rgba(100,100,100,0.5)
+    color: black;
+    /* height: 200px; */
+    z-index: 10;
+}
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height:200; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin:0;
+}
