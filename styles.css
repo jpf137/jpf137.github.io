@@ -55,7 +55,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: rgba(100,100,100,0.5)
+    background-color: rgba(150,150,150,0.9);
     color: black;
     /* height: 200px; */
     z-index: 10;
